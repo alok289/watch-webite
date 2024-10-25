@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Catalog</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.watch-category {
+    margin-top: 40px;
+}
+
+.watch-category h2 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.watch-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.watch-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.watch-card:hover {
+    transform: scale(1.05);
+}
+
+.watch-card img {
+    width: 100%;
+    height: auto;
+}
+
+.watch-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.watch-card p {
+    font-size: 0.95em;
+    color: #555;
+    padding: 0 15px 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Watch Catalog</h1>
+        <p>Explore our collection of luxury, smart, and analog watches.</p>
+    </header>
+
+    <main>
+        <section class="watch-category">
+            <h2>Luxury Watches</h2>
+            <div class="watch-list">
+                <div class="watch-card">
+                    <img src="luxuary 1.webp" alt="Luxury Watch 1">
+                    <h3>Luxury Watch 1</h3>
+                    <p>Elegance and precision crafted with the finest materials.</p>
+                </div>
+                <div class="watch-card">
+                    <img src="luxuary2.jpg" alt="Luxury Watch 2">
+                    <h3>Luxury Watch 2</h3>
+                    <p>Exquisite design with timeless style and sophistication.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="watch-category">
+            <h2>Smart Watches</h2>
+            <div class="watch-list">
+                <div class="watch-card">
+                    <img src="smart waches 1.jpg" alt="Smart Watch 1">
+                    <h3>Smart Watch 1</h3>
+                    <p>Stay connected with cutting-edge technology on your wrist.</p>
+                </div>
+                <div class="watch-card">
+                    <img src="smart  watches 2.jpg" alt="Smart Watch 2">
+                    <h3>Smart Watch 2</h3>
+                    <p>Monitor your fitness and stay on top of notifications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="watch-category">
+            <h2>Analog Watches</h2>
+            <div class="watch-list">
+                <div class="watch-card">
+                    <img src="analog watvch 2.webp" alt="Analog Watch 1">
+                    <h3>Analog Watch 1</h3>
+                    <p>Classic design with modern craftsmanship.</p>
+                </div>
+                <div class="watch-card">
+                    <img src="analog  watch 1.webp" alt="Analog Watch 2">
+                    <h3>Analog Watch 2</h3>
+                    <p>A timeless piece for those who appreciate simplicity.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Watch Catalog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
